@@ -3,21 +3,21 @@
 
   <div id="cardsContainer">
     <div id="nonSortedHand">
-      main non triée :
+      Main non triée :
       <br>
       {{hand.join(", ")}}
     </div>
 
     <div id="sortedHand">
-      main triée :
+      Main triée :
       <br>
       {{sortedHand.join(", ")}}
     </div>
   </div>
 
   <div id="btnContainer">
-    <button id="btnGenerate" type="button" (click)="generateHand()">Generate</button>
-    <button id="btnSort" type="button" *ngIf="isHandGenerated" (click)="sortHand()">Sort</button>
+    <button id="btnGenerate" type="button" (click)="generateHand()">Générer</button>
+    <button id="btnSort" type="button" *ngIf="isHandGenerated" (click)="sortHand()">Trier</button>
   </div>
 
 
