@@ -1,0 +1,47 @@
+#mainContainer {
+    text-align: center;
+    background-color: rgb(68 195 219);
+
+}
+
+#title {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: x-large;
+}
+
+#cardsContainer {
+    height: 150px;
+    font-size: large;
+}
+
+#nonSortedHand,
+#sortedHand {
+    height: 75px;
+    line-height: 30px;
+}
+
+#btnContainer {
+    height: 130px;
+    line-height: 60px;
+}
+
+#btnGenerate,
+#btnSort {
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+#info {
+    text-align: left;
+    height: 70px;
+    margin-left: 10px;
+}
+
+#colorOrder,
+#valueOrder {
+    height: 35px;
+    line-height: 35px;
+}

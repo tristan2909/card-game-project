@@ -1,0 +1,28 @@
+<div id="mainContainer">
+  <div id="title">Jeu de carte</div>
+
+  <div id="cardsContainer">
+    <div id="nonSortedHand">
+      main non triée :
+      <br>
+      {{hand.join(", ")}}
+    </div>
+
+    <div id="sortedHand">
+      main triée :
+      <br>
+      {{sortedHand.join(", ")}}
+    </div>
+  </div>
+
+  <div id="btnContainer">
+    <button id="btnGenerate" type="button" (click)="generateHand()">Generate</button>
+    <button id="btnSort" type="button" *ngIf="isHandGenerated" (click)="sortHand()">Sort</button>
+  </div>
+
+
+  <div id="info">
+    <div id="colorOrder">Ordre des couleurs : {{colorOrder.join(", ")}}</div>
+    <div id="valueOrder">Ordre des valeurs : {{valueOrder.join(", ")}}</div>
+  </div>
+</div>
